@@ -1,8 +1,11 @@
 package conditional_Statement;
 
+import java.util.Scanner;
+
 public class if_else {
     public static void main(String[] args) {
-        int age = 18;
+        Scanner sc = new Scanner(System.in);
+        int age = sc.nextInt();
         if (age >= 18) {
             System.out.println("You are Eligible for voting");
         }
