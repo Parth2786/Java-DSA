@@ -1,3 +1,4 @@
+package conditional_Statement;
 import java.util.Scanner;
 
 public class question21 {
@@ -11,7 +12,7 @@ public class question21 {
             System.out.println("0");
         }
         else{
-            System.out.println("-1");
+            System.out.println("2");
         }
     }
 }
