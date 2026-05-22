@@ -1,7 +1,7 @@
 package conditional_Statement;
 import java.util.Scanner;
 
-public class question21 {
+public class question1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         char ch = sc.nextLine().charAt(0);
