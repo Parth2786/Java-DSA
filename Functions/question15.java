@@ -10,7 +10,7 @@ public class question15 {
             int next = first + second;
             first = second;
             second = next;
-            System.out.print(first+" ");
+            System.out.print(first+"  ");
         }
     }
     public static void main(String[] args) {
