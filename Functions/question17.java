@@ -11,8 +11,7 @@ public class question17 {
             n /= 10;                     
         }
         return result;
-    }
-    public static void main(String[] args) {
+    }     public static void main(String[] args) {
         int n = 11001;
         System.out.println(Binary_Decimal(n));
 
