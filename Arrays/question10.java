@@ -21,18 +21,18 @@ public class question10 {
             i--;
             j--;
         }
-
+   
         // Copy remaining digits of arr1 if any
         while (i >= 0) {
             res[k--] = arr1[i--];
         }
 
         // Remove leading zeros
-        int start = 0;
-        while (start < res.length - 1 && res[start] == 0) {
-            start++;
+        int count = 0;
+        while (count < res.length - 1 && res[count] == 0) {
+            count++;
         }
-        return Arrays.copyOfRange(res, start, res.length);
+        return Arrays.copyOfRange(res, count, res.length);
     }
 
     public static void main(String[] args) {
