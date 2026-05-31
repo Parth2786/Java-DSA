@@ -4,7 +4,7 @@ import java.util.*;
 
 public class question11 {
     public static int[] addition(int[] arr1, int[] arr2, int n1, int n2) {
-        int size = Math.max(n1, n2);
+        int size = Math.max(n1, n2  );
 
         int[] temp = new int[size + 1];
 
