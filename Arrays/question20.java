@@ -2,14 +2,12 @@ package Arrays;
 import java.util.*;
 public class question20 {
     public static int[] twosum(int[] arr,int target){
-        int i = 0;
-        int j = i + 1;
-        while (i < j ) {
-            if (arr[i] + arr[j] == target) {
-                return new int[] {i,j};
+        for(int i = 0; i < arr.length; i++){
+            for(int j = i + 1; j < arr.length; j++){
+                if(arr[i] + arr[j] == target){
+                    return new int[] {i,j};
+                }
             }
-            i++;
-            j++;
         }
         return new int[] {};
 
