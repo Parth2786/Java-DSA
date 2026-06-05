@@ -6,8 +6,8 @@ import conditional_Statement.if_else;
 
 public class question31 {
     public static int dominant_index(int[] arr){
-        int largest = arr[0];
-        int second_largest = -1;
+        int largest = Integer.MIN_VALUE;
+        int second_largest = Integer.MIN_VALUE;
         int index = -1;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > largest) {
