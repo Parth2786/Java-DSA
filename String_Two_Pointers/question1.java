@@ -1,6 +1,6 @@
-package Arrays;
+package String_Two_Pointers;
 
-public class question34 {
+public class question1 {
     public static boolean valid_palindrome(String str){
         int left = 0;
         int right = str.length() - 1;
