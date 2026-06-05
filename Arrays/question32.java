@@ -12,7 +12,7 @@ public class question32 {
                     max_one = Math.max(max_one, count_one);
                     count_zero = 0;
                 }
-                else if(nums[i] == 0){
+                else{
                     count_zero++;
                     max_zero = Math.max(max_zero, count_zero);
                     count_one = 0;
