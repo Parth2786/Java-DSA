@@ -3,7 +3,7 @@ package multi_Dim_Array;
 public class question5 {
     public static void boolean_matrix(int[][] matrix){
         int n = matrix.length;
-        int m = matrix.length;
+        int m = matrix[0].length;
         int[] rows = new int[n];
         int[] cols = new int[m];
         for (int i = 0; i < n; i++) {
