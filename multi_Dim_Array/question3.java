@@ -4,7 +4,7 @@ public class question3 {
     public static void rotate_image(int[][] matrix){
         int n = matrix.length;
         for (int i = 0; i < matrix.length; i++) {
-            for (int j = i + 1; j < matrix.length; j++) {
+            for (int j = i + 1 ; j < matrix.length; j++) {
                 int temp = matrix[i][j];
                 matrix[i][j] = matrix[j][i];
                 matrix[j][i] = temp;
