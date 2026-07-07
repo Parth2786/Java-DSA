@@ -1,6 +1,8 @@
 package multi_Dim_Array;
 
 public class question14 {
+
+    // This is searching into the matrix but this is for the sorted matrix with both row and column.
     public static boolean search_matrix(int[][] matrix, int target){
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
