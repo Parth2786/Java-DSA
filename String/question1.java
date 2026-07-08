@@ -2,6 +2,8 @@ package String;
 import java.util.*;
 public class question1 {
     public static int count_word(String str){
+
+        // Count word in string.
         int count = 0;
         boolean inword = false;
         for (int i = 0; i < str.length(); i++) {
