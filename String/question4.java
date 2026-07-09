@@ -1,18 +1,22 @@
 package String;
 
 public class question4 {
-    public static boolean isPangram(String str){
-        int left = 0;
-        int right = str.length() - 1;
-        while (left < right) {
-            if (str.charAt(left) != str.charAt(right)) {
-                return true;
+    public static boolean isPangram(String str) {
+        boolean[] seen = new boolean[26];
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            if (ch >= 'a' && ch <= 'z') {
+                seen[ch - 'a'] = true;
             }
-            left++;
-            right--;
         }
-        return false;
+        for (boolean b : seen) {
+            if (!b) {
+                return false;
+            }
+        }
+        return true;
     }
+
     public static void main(String[] args) {
         String str = "thequickbrownfoxjumpsoverthelazydog";
         System.out.println(isPangram(str));
