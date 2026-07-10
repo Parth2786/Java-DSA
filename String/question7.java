@@ -2,6 +2,8 @@ package String;
 
 public class question7 {
     public static boolean isAnagram(String s, String t){
+
+        // Not submitted on leetcode.
         int[] count = new int[26];
         for (int i = 0; i < s.length(); i++) {
                 count[s.charAt(i) - 'a']++;
