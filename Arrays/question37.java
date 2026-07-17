@@ -1,7 +1,9 @@
-package String;
-import java.util.*;
-public class question21 {
-    public static long gcd_sum(int[] nums){
+package Arrays;
+
+import java.util.Arrays;
+
+public class question37 {
+    public static long gcd_sum(int[] nums) {
         int n = nums.length;
         int[] prefix_gcd = new int[n];
         int max = 0;
@@ -16,7 +18,8 @@ public class question21 {
         }
         return ans;
     }
-    public static int GCD(int a, int b){
+
+    public static int GCD(int a, int b) {
         while (b != 0) {
             int temp = a % b;
             a = b;
@@ -24,8 +27,9 @@ public class question21 {
         }
         return a;
     }
+
     public static void main(String[] args) {
-        int[] nums = {3,6,2,8};
+        int[] nums = { 3, 6, 2, 8 };
         System.out.println(gcd_sum(nums));
     }
 }
