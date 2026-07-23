@@ -2,7 +2,7 @@ package String;
 
 public class question26 {
 
-    // Leetcode 796 Not submitted on leetcode.
+    // Leetcode 796 .
     public static boolean rotate_string(String s, String t){
         if (s.length() != t.length()) {
             return false;
