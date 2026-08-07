@@ -1,6 +1,9 @@
 package Arrays;
 public class question45 {
     public static int trap(int [] height){
+
+        // leetcode question number 42 Prefixx array approach
+
         int n = height.length;
         int[] lmax = new int[n];
         int[] rmax = new int[n];
