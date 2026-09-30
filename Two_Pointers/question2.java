@@ -25,3 +25,4 @@ public class question2 {
         System.out.println(isPalindrome(s));
     }
 }
+
