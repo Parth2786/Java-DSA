@@ -1,6 +1,10 @@
 package Two_Pointers;
 import java.util.*;
 public class question3 {
+
+
+    // This is the leetcode question number 345 in which we have to reverse the string character character wherever there is vowel.
+
     public static String reverse_vowel(String str){
         String vowels = "aeiouAEIOU";
         char[] arr = str.toCharArray();
