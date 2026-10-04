@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "question8",
+            "request": "launch",
+            "mainClass": "Striver.question8",
+            "projectName": "Java DSA_9f21e40c"
+        },
+        {
+            "type": "java",
             "name": "question2",
             "request": "launch",
             "mainClass": "Loops.question2",
