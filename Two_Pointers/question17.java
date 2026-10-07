@@ -5,6 +5,7 @@ public class question17 {
     // This is the question number 948 on leetcode in which we have to return the maximum score after using the token and the given power.
     // First sort the given token array.
     // Use two pointer left for buying score with the cheapest token and right for selling the score for expensive token.
+    
     public static int bagOfTokens(int[] token, int power){
         Arrays.sort(token);
         int left = 0;
