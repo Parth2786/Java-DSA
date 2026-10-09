@@ -17,9 +17,7 @@ public class question1 {
             sum += nums[i] - nums[i - k];
             maxsum = Math.max(maxsum, sum);
         }
-        double result = (double) maxsum / k;
-        
-        return String.format("%.5f", result);;
+        return (double) maxsum / k;
     }
 
     public static void main(String[] args) {
